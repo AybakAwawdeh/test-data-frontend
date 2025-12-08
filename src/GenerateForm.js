@@ -29,7 +29,7 @@ function GenerateForm() {
 
   return (
     <div style={{ padding: "20px" }}>
-      <h2>Generate Test Data</h2>
+      <h2>Generate Test Data v0.0</h2>
       <form onSubmit={handleSubmit}>
         <div>
           <label>Platform:</label>
