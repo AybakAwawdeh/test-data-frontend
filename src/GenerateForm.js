@@ -13,7 +13,7 @@ function GenerateForm() {
     const payload = { platform, username, password, licenseName };
 
     try {
-      const response = await fetch("http://localhost:8080/generate-test-data", {
+        const response = await fetch("https://test-data-backend.onrender.com/generate-test-data", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
